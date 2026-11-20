@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b9e2ff"/>
+      <stop offset=".52" stop-color="#eaf7ff"/>
+      <stop offset="1" stop-color="#86c8f4"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fdff"/>
+      <stop offset=".5" stop-color="#9bd6f6"/>
+      <stop offset="1" stop-color="#e9f8ff"/>
+    </linearGradient>
+    <linearGradient id="building" x1="820" y1="140" x2="1540" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fcff"/>
+      <stop offset="1" stop-color="#addcf3"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="780" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8f7ff"/>
+      <stop offset="1" stop-color="#75b9e3"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <g fill="#fff" opacity=".58" filter="url(#soft)">
+    <ellipse cx="170" cy="112" rx="190" ry="62"/>
+    <ellipse cx="1240" cy="82" rx="210" ry="72"/>
+    <ellipse cx="1510" cy="204" rx="150" ry="45"/>
+  </g>
+  <path fill="#f3fbff" d="M0 180h620v590H0z"/>
+  <path fill="url(#glass)" d="M0 205h610v535H0z"/>
+  <g stroke="#fff" stroke-width="15" opacity=".95">
+    <path d="M132 205v535M286 205v535M440 205v535M0 385h610M0 565h610"/>
+  </g>
+  <g fill="#fff" opacity=".36">
+    <path d="M0 218h120v155H0zM148 218h123v155H148zM302 218h123v155H302zM456 218h154v155H456z"/>
+    <path d="M0 399h120v153H0zM148 399h123v153H148zM302 399h123v153H302zM456 399h154v153H456z"/>
+  </g>
+  <path fill="#d9f1ff" d="M0 740h780v260H0z"/>
+  <path fill="url(#floor)" d="M0 784h1600v216H0z"/>
+  <path fill="#fff" opacity=".42" d="m0 820 660-42 270 222H0z"/>
+  <g opacity=".8">
+    <path fill="#fff" d="m760 272 722-230 118 36v689l-840 64z"/>
+    <path fill="url(#building)" d="m802 280 673-211v638l-673 82z"/>
+    <path fill="#f7fcff" d="m802 280 673-211v73L802 353zM802 438l673-183v67L802 505zM802 596l673-154v64L802 660zM802 753l673-125v59l-673 132z"/>
+    <g fill="#4aafe2" opacity=".7">
+      <path d="m834 367 102-29v81l-102 28zM966 329l103-30v81l-103 29zM1099 291l103-30v81l-103 29zM1232 253l103-30v81l-103 29zM1365 215l78-23v81l-78 22z"/>
+      <path d="m834 525 102-28v81l-102 27zM966 488l103-29v81l-103 28zM1099 451l103-29v81l-103 28zM1232 414l103-28v81l-103 27zM1365 377l78-22v81l-78 22z"/>
+      <path d="m834 680 102-24v81l-102 24zM966 649l103-24v81l-103 24zM1099 618l103-24v81l-103 24zM1232 587l103-24v81l-103 24zM1365 556l78-19v81l-78 19z"/>
+    </g>
+    <path fill="#0875c9" d="m1265 133 46-14v43l37-11-2 45-36 11v43l-45 14v-43l-36 11v-45l36-11z"/>
+    <text x="1355" y="152" fill="#075ca8" font-family="Arial,sans-serif" font-size="35" font-weight="700" transform="rotate(-17 1355 152)">CITY CARE</text>
+    <text x="1355" y="194" fill="#075ca8" font-family="Arial,sans-serif" font-size="35" font-weight="700" transform="rotate(-17 1355 194)">HOSPITAL</text>
+  </g>
+  <g stroke="#087ecb" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path stroke-width="8" d="M0 286h89l22-27 21 51 24-105 25 147 22-85 20 24h41"/>
+    <path stroke-width="7" d="M257 344c-44-35-71-62-71-95 0-25 18-43 42-43 19 0 31 11 39 25 8-14 20-25 39-25 24 0 42 18 42 43 0 33-27 60-71 95l-10 8z"/>
+  </g>
+  <g stroke="#174c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity=".76">
+    <path d="M0 876c60 0 93 28 135 28 46 0 47-42 47-80v-24"/>
+    <path d="M182 800c0-25 39-25 39 0v46c0 52-28 79-74 79"/>
+    <path d="M105 877c0 48 36 83 83 83h18c46 0 83-35 83-83"/>
+    <path d="M289 877v-33"/>
+  </g>
+  <circle cx="289" cy="842" r="13" fill="#174c78" opacity=".76"/>
+</svg>
